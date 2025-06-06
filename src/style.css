@@ -16,6 +16,14 @@ a {
   text-decoration: none;
 }
 
+.page {
+  background-color: #ccc;
+}
+
+.header {
+  background-color: #fff;
+}
+
 .logo_link {
   line-height: 0;
 }
