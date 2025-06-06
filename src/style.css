@@ -16,24 +16,21 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .page {
   background-color: #ccc;
 }
 
 .header {
+  display: flex;
   background-color: #fff;
 }
 
 .logo_link {
   line-height: 0;
-}
-
-ul {
-  list-style: none;
-}
-
-.header {
-  display: flex;
 }
 
 .nav__list {
