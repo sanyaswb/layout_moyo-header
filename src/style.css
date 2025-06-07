@@ -3,7 +3,7 @@ html {
   font-weight: 500;
 
   --primary-font-color: #000;
-  --secondary-font-color: #00ACDC;
+  --secondary-font-color: #00acdc;
 }
 
 body,
@@ -56,11 +56,12 @@ ul {
   height: 60px;
   text-transform: uppercase;
   color: var(--primary-font-color);
+  font-size: 12px;
 }
 
-.nav__list li:nth-child(4) :first-child:hover {
+/* .nav__list li:nth-child(4) :first-child:hover {
   color: var(--secondary-font-color);
-}
+} */
 
 .is-active {
   color: var(--secondary-font-color);
@@ -77,6 +78,6 @@ ul {
   background-color: var(--secondary-font-color);
 }
 
-.nav__list :nth-child(4):hover {
+[data-qa='hover']:hover {
   color: var(--secondary-font-color);
 }
